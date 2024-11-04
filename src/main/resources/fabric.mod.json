@@ -9,9 +9,10 @@
 	],
 	"contact": {
 		"homepage": "https://discord.gg/7radMBMnNZ",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ulybaka1337/attack-while-eating",
+		"discord": "https://discord.gg/7radMBMnNZ"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/atkwhileeating/icon.png",
 	"environment": "*",
 	"entrypoints": {
