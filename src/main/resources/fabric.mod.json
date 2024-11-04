@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "atkwhileeating",
+	"version": "${version}",
+	"name": "Attack while eating",
+	"description": "attack and use shield or eat at same time\n\nпапка левака пидор",
+	"authors": [
+		"ulybaka1337"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/7radMBMnNZ",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/atkwhileeating/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ru.ulybaka1337.Atkwhileeating"
+		],
+		"client": [
+			"ru.ulybaka1337.AtkwhileeatingClient"
+		]
+	},
+	"mixins": [
+		"atkwhileeating.mixins.json",
+		{
+			"config": "atkwhileeating.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "ru.ulybaka1337.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"MixinClientPlayerEntity"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
